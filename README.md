@@ -7,7 +7,8 @@ This document is a step-by-step guide for running and benchmarking using WSL (Ub
 2. Connecting to Devnet (L1) (https://rpc-devnet.gravity.xyz, get the chainId via eth_chainId)
 
 > Tip: Store your sources inside the Linux filesystem (e.g., ~/code) rather than /mnt/c — builds will be much faster.
-> **NOTE (Native Ubuntu/Linux):** If you already run Ubuntu (or another Linux distro) natively, **skip section “0) Install WSL + Ubuntu”** and execute all commands in your normal shell. Package names/commands are the same (tested on Ubuntu 22.04/24.04).
+
+> **NOTE (Native Ubuntu/Linux):** If you already run Ubuntu (or another Linux distro) natively, **skip section “##0 Install WSL + Ubuntu”** and execute all commands in your normal shell. Package names/commands are the same (tested on Ubuntu 22.04/24.04).
 
 ## Table of Contents
 - [0. Install WSL + Ubuntu](#0-install-wsl--ubuntu)
