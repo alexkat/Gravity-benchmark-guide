@@ -141,7 +141,7 @@ Create `bench_config.toml` in the `gravity_bench` root. Choose one of the follow
 
 ### 5.A) Devnet (recommended to start)
 
-Set `chain_id` to the value returned by the RPC endpoint (see [Useful checks](https://www.google.com/search?q=%238-useful-checks)).
+Set `chain_id` to the value returned by the RPC endpoint (see [Useful checks](#8-useful-checks)).
 
 ```toml
 # bench_config.toml — DEVNET
