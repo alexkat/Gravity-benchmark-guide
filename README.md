@@ -11,21 +11,19 @@ This document is a step-by-step guide for running and benchmarking `gravity_benc
 **NOTE (Native Ubuntu/Linux):** If you already run Ubuntu (or another Linux distro) natively, **skip section “\#\#0 Install WSL + Ubuntu”** and execute all commands in your normal shell. Package names/commands are the same (tested on Ubuntu 22.04/24.04).
 
 ## Table of Contents
-
-  * [0. Install WSL + Ubuntu](https://www.google.com/search?q=%230-install-wsl--ubuntu)
-  * [1. Base dependencies (Ubuntu in WSL)](https://www.google.com/search?q=%231-base-dependencies-ubuntu-in-wsl)
-  * [2. Install Rust](https://www.google.com/search?q=%232-install-rust)
-  * [3. (Optional) Local Gravity node](https://www.google.com/search?q=%233-optional-local-gravity-node)
-  * [4. Install & prepare gravity\_bench](https://www.google.com/search?q=%234-install--prepare-gravity_bench)
-  * [5. bench\_config.toml examples](https://www.google.com/search?q=%235-bench_configtoml-examples)
-      * [5.A) Devnet (recommended to start)](https://www.google.com/search?q=%235a-devnet-recommended-to-start)
-      * [5.B) Local node (WSL, chainId 1337)](https://www.google.com/search?q=%235b-local-node-wsl-chainid-1337)
-  * [6. Run the benchmark](https://www.google.com/search?q=%236-run-the-benchmark)
-  * [7. (Optional) Enable Uniswap swaps](https://www.google.com/search?q=%237-optional-enable-uniswap-swaps)
-  * [8. Useful checks](https://www.google.com/search?q=%238-useful-checks)
-  * [9. Common errors & quick fixes](https://www.google.com/search?q=%239-common-errors--quick-fixes)
-  * [10. Stop & exit](https://www.google.com/search?q=%2310-stop--exit)
-
+- [0. Install WSL + Ubuntu](#0-install-wsl--ubuntu)
+- [1. Base dependencies (Ubuntu in WSL)](#1-base-dependencies-ubuntu-in-wsl)
+- [2. Install Rust](#2-install-rust)
+- [3. (Optional) Local Gravity node](#3-optional-local-gravity-node)
+- [4. Install & prepare gravity_bench](#4-install--prepare-gravity_bench)
+- [5. bench_config.toml examples](#5-bench_configtoml-examples)
+  - [5.A) Devnet (recommended to start)](#5a-devnet-recommended-to-start)
+  - [5.B) Local node (WSL, chainId 1337)](#5b-local-node-wsl-chainid-1337)
+- [6. Run the benchmark](#6-run-the-benchmark)
+- [7. (Optional) Enable Uniswap swaps](#7-optional-enable-uniswap-swaps)
+- [8. Useful checks](#8-useful-checks)
+- [9. Common errors & quick fixes](#9-common-errors--quick-fixes)
+- [10. Stop & exit](#10-stop--exit)
 ## 0\. Install WSL + Ubuntu
 
 Open **PowerShell** as Administrator:
